@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 引入本地字体文件 */
+@import url('/fonts/fonts.css');
+
+/* 重置和基础样式 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-weight: 500;
+  background: linear-gradient(135deg, #0d1117 0%, #161b22 30%, #21262d 70%, #0d1117 100%);
+  background-attachment: fixed;
+  color: #f0f6fc;
+  line-height: 1.6;
+  overflow-x: hidden;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* 字体降级策略 */
+.font-mono {
+  font-family: 'JetBrains Mono', 'Consolas', 'Monaco', 'Courier New', monospace;
+}
+
+/* 如果字体加载失败的降级方案 */
+@supports not (font-display: swap) {
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  }
+  
+  .font-mono {
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  }
+}
+
+#root {
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.App {
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+main {
+  position: relative;
+  z-index: 10;
+  clear: both;
+}
+
+section {
+  position: relative;
+  z-index: 5;
+}
+
+.grid {
+  display: grid;
+  width: 100%;
+}
+
+.grid > * {
+  min-width: 0;
+}
+
+[data-framer-motion] {
+  position: relative;
+}
+
+.force-repaint {
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+}
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --font-weight-normal: 500;
+  --font-weight-medium: 600;
+  --font-weight-bold: 700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: var(--font-weight-bold);
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+p, span, div {
+  color: #f0f6fc;
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: #161b22;
+  border-radius: 8px;
+  border: 2px solid #0d1117;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #ff6b35, #6366f1);
+  border-radius: 8px;
+  border: 3px solid #161b22;
+  box-shadow: inset 0 0 10px rgba(255, 107, 53, 0.3);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #ff8a65, #8b5cf6);
+  box-shadow: inset 0 0 15px rgba(255, 107, 53, 0.5);
+}
+
+*:focus {
+  outline: none;
+}
+
+*:focus-visible {
+  outline: 2px solid #ff6b35;
+  outline-offset: 2px;
+}
+
+::selection {
+  background: linear-gradient(90deg, rgba(255, 107, 53, 0.6), rgba(99, 102, 241, 0.6));
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes gradientShift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+@keyframes shine {
+  0% { transform: translateX(-100%) rotate(45deg); }
+  100% { transform: translateX(400%) rotate(45deg); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-25px); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+* {
+  transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease, opacity 0.3s ease, box-shadow 0.3s ease;
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.force-repaint {
+  transform: translateZ(0);
+}
+
+.high-contrast {
+  color: #ffffff !important;
+  font-weight: var(--font-weight-bold);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}

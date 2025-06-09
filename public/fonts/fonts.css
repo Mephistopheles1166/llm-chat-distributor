@@ -1,0 +1,121 @@
+/* 系统字体备选方案 */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Inter Light'), local('Inter-Light'), 
+       local('Segoe UI Light'), local('Helvetica Neue Light'),
+       local('Arial'), local('sans-serif');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Inter'), local('Inter-Regular'), 
+       local('Segoe UI'), local('Helvetica Neue'),
+       local('Arial'), local('sans-serif');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Inter Medium'), local('Inter-Medium'), 
+       local('Segoe UI Semibold'), local('Helvetica Neue Medium'),
+       local('Arial'), local('sans-serif');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Inter SemiBold'), local('Inter-SemiBold'), 
+       local('Segoe UI Semibold'), local('Helvetica Neue Bold'),
+       local('Arial Bold'), local('sans-serif');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Inter Bold'), local('Inter-Bold'), 
+       local('Segoe UI Bold'), local('Helvetica Neue Bold'),
+       local('Arial Bold'), local('sans-serif');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Inter ExtraBold'), local('Inter-ExtraBold'), 
+       local('Segoe UI Black'), local('Helvetica Neue Heavy'),
+       local('Arial Black'), local('sans-serif');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Inter Black'), local('Inter-Black'), 
+       local('Segoe UI Black'), local('Helvetica Neue Heavy'),
+       local('Arial Black'), local('sans-serif');
+}
+
+/* JetBrains Mono 系统字体备选 */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('JetBrains Mono'), local('JetBrainsMono-Regular'), 
+       local('Consolas'), local('Monaco'), local('Courier New'),
+       local('monospace');
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('JetBrains Mono Medium'), local('JetBrainsMono-Medium'), 
+       local('Consolas'), local('Monaco'), local('Courier New'),
+       local('monospace');
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('JetBrains Mono SemiBold'), local('JetBrainsMono-SemiBold'), 
+       local('Consolas Bold'), local('Monaco'), local('Courier New'),
+       local('monospace');
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('JetBrains Mono Bold'), local('JetBrainsMono-Bold'), 
+       local('Consolas Bold'), local('Monaco'), local('Courier New'),
+       local('monospace');
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('JetBrains Mono ExtraBold'), local('JetBrainsMono-ExtraBold'), 
+       local('Consolas Bold'), local('Monaco'), local('Courier New'),
+       local('monospace');
+}

@@ -1,0 +1,136 @@
+{
+  "models": [
+    {
+      "id": "智能体1",
+      "name": "整编智能体",
+      "description": "帮助整编，1秒出结果",
+      "category": "general",
+      "url": "http://192.168.1.13/chat/zUZSfD3pkpBMOTbR",
+      "icon": "bot",
+      "tags": ["通用", "创意", "推理"],
+      "provider": "**大模型",
+      "featured": true
+    },
+    {
+      "id": "智能体2",
+      "name": "写作助手",
+      "description": "帮助写作，生成成品公文",
+      "category": "general",
+      "url": "http://192.168.1.13/chat/j6lkxxDKFr0TxylQ",
+      "icon": "brain",
+      "tags": ["分析", "写作", "安全"],
+      "provider": "**大模型"
+    },
+    {
+      "id": "智能体3",
+      "name": "知识问答",
+      "description": "**通，详细回答任何问题",
+      "category": "thinking",
+      "url": "http://192.168.1.13/chat/xyz789CodeLlama",
+      "icon": "code",
+      "tags": ["思考", "思维辅助", "调试"],
+      "provider": "**大模型",
+      "featured": true
+    },
+    {
+      "id": "智能体4",
+      "name": "行为预测",
+      "description": "对某一对象进行详细分析，预测其可能发生的行为",
+      "category": "general",
+      "url": "http://192.168.1.13/chat/llama2Model123",
+      "icon": "zap",
+      "tags": ["开源", "通用", "高性能"],
+      "provider": "**大模型"
+    },
+    {
+      "id": "智能体5",
+      "name": "人物画像分析",
+      "description": "生成人物画像分析报告",
+      "category": "general",
+      "url": "http://192.168.1.13/chat/mixtral8x7bChat",
+      "icon": "layers",
+      "tags": ["混合专家", "高效", "多语言"],
+      "provider": "**大模型"
+    },
+    {
+      "id": "智能体6",
+      "name": "翻译助手",
+      "description": "一次支持100多种语言10万字全文翻译",
+      "category": "multimodal",
+      "url": "http://192.168.1.13/chat/geminiProMulti",
+      "icon": "sparkles",
+      "tags": ["多模态", "图像理解", "Google"],
+      "provider": "**大模型"
+    },
+    {
+      "id": "智能体7",
+      "name": "图像生成",
+      "description": "依据文字或图像生成新图像",
+      "category": "multimodal",
+      "url": "http://192.168.1.13/chat/geminiProMulti",
+      "icon": "sparkles",
+      "tags": ["多模态", "图像理解", "Google"],
+      "provider": "**大模型"
+    },
+    {
+      "id": "智能体8",
+      "name": "OCR图像转文字",
+      "description": "大模型智能识别图像中的文字",
+      "category": "multimodal",
+      "url": "http://192.168.1.13/chat/geminiProMulti",
+      "icon": "sparkles",
+      "tags": ["多模态", "图像理解", "Google"],
+      "provider": "**大模型"
+    },
+    {
+      "id": "智能体9",
+      "name": "文字视频生成",
+      "description": "依据文字生成新视频",
+      "category": "multimodal",
+      "url": "http://192.168.1.13/chat/geminiProMulti",
+      "icon": "sparkles",
+      "tags": ["多模态", "图像理解", "Google"],
+      "provider": "**大模型"
+    },
+    {
+      "id": "智能体10",
+      "name": "图像视频生成",
+      "description": "依据图像生成动态视频",
+      "category": "multimodal",
+      "url": "http://192.168.1.13/chat/geminiProMulti",
+      "icon": "sparkles",
+      "tags": ["多模态", "图像理解", "Google"],
+      "provider": "**大模型"
+    }
+  ],
+  "categories": [
+    {
+      "id": "all",
+      "name": "全部模型",
+      "description": "查看所有可用的AI模型",
+      "icon": "grid-3x3",
+      "color": "#6b73ff"
+    },
+    {
+      "id": "general",
+      "name": "通用模型",
+      "description": "适用于多种任务的通用AI模型",
+      "icon": "cpu",
+      "color": "#ff6b35"
+    },
+    {
+      "id": "thinking",
+      "name": "思维助手",
+      "description": "专门优化思维辅助模型",
+      "icon": "code-2",
+      "color": "#00d4aa"
+    },
+    {
+      "id": "multimodal",
+      "name": "多模态",
+      "description": "支持文本、图像等多种输入的AI模型",
+      "icon": "image",
+      "color": "#9b59b6"
+    }
+  ]
+}
